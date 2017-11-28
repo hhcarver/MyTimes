@@ -4,19 +4,24 @@
   font-weight: bold;
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 #headtext {
   color: MediumAquamarine;
   padding: 10px;
 }
-nav {
-  text-align: right;
+#logoandtext {
   display: flex;
-  justify-content: flex-end;
+}
+nav {
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
 .headlink {
   color: black;
   margin: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
