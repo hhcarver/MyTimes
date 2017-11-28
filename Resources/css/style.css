@@ -1,13 +1,22 @@
 #header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
-#logo {
+  width: 100%;
   display: flex;
 }
 #headtext {
   color: MediumAquamarine;
   padding: 10px;
+}
+nav {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.headlink {
+  color: black;
+  margin: 10px;
 }
