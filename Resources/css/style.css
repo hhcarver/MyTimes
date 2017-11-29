@@ -38,16 +38,17 @@ nav {
 .column .large {
   width: 630px;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  flex-direction: column;
 }
 .column .medium {
+  min-width: 300px;
   display: flex;
-  width: 300px;
+  flex-direction: column;
 }
 .column .small {
-  display: flex;
   width: 240px;
+  display: flex;
+  flex-direction: column;
 }
 div {
   margin-right: 15px;
@@ -62,17 +63,35 @@ div {
   font-size: 40px;
   display: flex;
 }
-
+#otherstories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#orca {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 #story2 {
   background-image: url("../images/story2.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#burger {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 #story3 {
   background-image: url("../images/story3.png");
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 #story4 {
   background-image: url("../images/story4.png");
-  display: flex;
 }
 #story2, #story3, #story4 {
   height: 300px;
