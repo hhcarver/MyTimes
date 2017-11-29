@@ -41,7 +41,6 @@ nav {
 .column.medium {
   display: flex;
   width: 300px;
-  flex-shrink: 0;
 }
 .column.small {
   display: flex;
@@ -77,6 +76,8 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
