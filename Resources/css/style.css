@@ -65,31 +65,36 @@ div {
 }
 #otherstories {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
 }
+#c1d1 {
+  display: flex;
+  flex-direction: column;
+}
+#c1d2 {
+  display: flex;
+  flex-direction: column;
+}
 #orca {
-  width: 45%;
+  margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 #story2 {
-  width: 45%;
   background-image: url("../images/story2.png");
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 #burger {
-  width: 45%;
+  margin-bottom: 45px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 #story3 {
-  width: 45%;
   background-image: url("../images/story3.png");
   display: flex;
   flex-direction: column;
