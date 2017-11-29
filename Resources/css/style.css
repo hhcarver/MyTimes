@@ -5,6 +5,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 #headtext {
   color: MediumAquamarine;
@@ -34,20 +35,21 @@ nav {
   font-size: 17px;
   color: black;
 }
-.column.large {
-  display: flex;
+.column .large {
   width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
-.column.medium {
+.column .medium {
   display: flex;
   width: 300px;
 }
-.column.small {
+.column .small {
   display: flex;
   width: 240px;
 }
 div {
-  border: 1px solid black;
   margin-right: 15px;
 }
 #mainheadline {
@@ -66,9 +68,11 @@ div {
 }
 #story3 {
   background-image: url("../images/story3.png");
+  display: flex;
 }
 #story4 {
   background-image: url("../images/story4.png");
+  display: flex;
 }
 #story2, #story3, #story4 {
   height: 300px;
