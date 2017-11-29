@@ -65,8 +65,6 @@ div {
 }
 #otherstories {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 #orca {
   display: flex;
