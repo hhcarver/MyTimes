@@ -80,6 +80,7 @@ div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  order: 3;
 }
 #burger {
   width: 45%;
@@ -93,6 +94,7 @@ div {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  order: 4;
 }
 #story4 {
   background-image: url("../images/story4.png");
