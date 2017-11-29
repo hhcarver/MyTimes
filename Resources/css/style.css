@@ -12,6 +12,7 @@
 }
 #logoandtext {
   display: flex;
+  margin-bottom:10px;
 }
 nav {
   display: flex;
@@ -24,4 +25,58 @@ nav {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.column.large {
+  display: flex;
+  width: 630px;
+}
+.column.medium {
+  display: flex;
+  width: 300px;
+  flex-shrink: 0;
+}
+.column.small {
+  display: flex;
+  width: 240px;
+}
+div {
+  border: 1px solid black;
+  margin-right: 15px;
+}
+#mainheadline {
+  background-image: url("../images/story.png");
+  width:629px;
+  height:300px;
+  color: white;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+}
+
+#story2 {
+  background-image: url("../images/story2.png");
+}
+#story3 {
+  background-image: url("../images/story3.png");
+}
+#story4 {
+  background-image: url("../images/story4.png");
+}
+#story2, #story3, #story4 {
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
